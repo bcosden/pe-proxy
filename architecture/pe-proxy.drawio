@@ -1,0 +1,175 @@
+<mxfile host="Electron" modified="2024-04-07T01:11:35.567Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ONpa4wgzscKpoEHSwPoW" version="24.1.0" type="device">
+  <diagram name="Page-1" id="Q_VkCUy_ars2r-0wR7sZ">
+    <mxGraphModel dx="1478" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-1" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillStyle=hachure;fillColor=#8e8a93;" parent="1" vertex="1">
+          <mxGeometry x="280" y="160" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;" parent="1" vertex="1">
+          <mxGeometry x="456.82" y="147" width="46.9" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Private_Endpoint.svg;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="304.91" y="188.54" width="43.64" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-4" value="&lt;div&gt;Storage Account&lt;/div&gt;&lt;div&gt;peproxy&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" parent="1" vertex="1">
+          <mxGeometry x="140" y="56" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-7" value="privatelink.blob.core.windows.net&lt;div&gt;(private DNS)&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" parent="1" vertex="1">
+          <mxGeometry x="150" y="232" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-9" value="NGINX&#xa;Reverse Proxy" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADNklEQVR4nO2Z30sUURTHh4pein5APdZDPyDqD+glmLx39t6pTcxiJA0linwshKCHqO2xx5JefNB7d2szN6EgUkkl6kUjfxRBimaF4dqaSqaou7PriTsk1Tg4u+7uOBN+4cCyO3vv9zNzDnfOvZK0pv9YOEgVEZLXJIfIPsxJBHMKIhAjrahWPSi5XXJE3owZvYk4mV80/1ckECd3ZCZvk9ymQCCwDnNSgTn9ZmH8n0CcTiBOL2sRbb3kBiFOCjCnb+2MLwFh9ANmRF0140pQ2Y05CWVq3ALkaQFX9zpm3BfybRJ5jjmdy9Y8NtWHUqNsdSDPyWgOjYPpaYznpT6OhnyHEScd+TKOl4CQHiWoylkbJ3Vkl5HnjC44ZR6b6gPX4j1uyfOVPo24qA/1nrolbQDESHS5Qcsay6En2gvxZBwmZiehbagdtIbSjIwtjjGnz0F3tAdKH5XbgUTTBrCbXExs1tjMGJxtrEgbwDxG10i37X9yBqCndLDS8I9hKK7X0gIwj6GndOcAllPf937w3y+yNWMl7AYAoc6vr4EEj3sXQOjZQLO3AYR4b8jbAELVnXe9AfDyyyvL75MLSbjWdsP9ADTkt1wfhOaTcbjUVOVuAMwpFIaL4ePEkOXvU/NTcO7xBXcDYE6hJFIGsZmY5TWj06OgNZxxNwDmFM4/uQg/49OW132a/AxFD067GwBzClXNV4yXPSuJ9x7XA2BO4Xp7AFILKcvrPQGAOYXbHdXeBsCcQv37Bm8DKFyFlsHn3gXAnBoL3ZuRLncA6KZmJJFM2E4uojB8EgbGBy3NJ9IYI2cAoofNtB1cDLGQiQXNrC4nW0rRkIsJZ/VZIy3sGnJznHpYAs0DLcaGgLjz6Y6RAQCpRIzGMjGVz0CGF1Ip5XCv36lIZL1naj5tce6uk9ye6qz0HCBj45z2Ie47JuVzhzof9YF+n9zIL+QNUr4lzrkwo7dyVB8JxGmNHD6xQ3JaSp2yP5v6QIy0FnB6yHHjS0CYijEj79I3T/oVRv2SmyRy13b9YGQScXJVi2gbJbfqSNi/3agPRuJ/jFNd5Llaq+6UvCLCyAHMaJMI8Xm1/axJypN+AeS65MjI4xVPAAAAAElFTkSuQmCC;" parent="1" vertex="1">
+          <mxGeometry x="450.5" y="186.54" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;pe-proxy-vnet&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;On-Premises&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-12" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#5c4578;" parent="1" vertex="1">
+          <mxGeometry x="280" y="540" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-6" value="sub.contoso.com&lt;div&gt;(private DNS)&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" parent="1" vertex="1">
+          <mxGeometry x="151" y="327" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-5" value="Windows VM" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" parent="1" vertex="1">
+          <mxGeometry x="309.13" y="562" width="51.75" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-15" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Network_Interfaces.svg;" parent="1" vertex="1">
+          <mxGeometry x="353.73" y="195.54" width="29.99" height="26.46" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-16" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="210" as="sourcePoint" />
+            <mxPoint x="170" y="138" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-17" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="rAPmGu2H4yRlAbI1YFUs-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="209" as="sourcePoint" />
+            <mxPoint x="230" y="167" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-18" value="&lt;span style=&quot;background-color: rgb(0, 0, 0);&quot;&gt;Private Endpoint&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#60a917;strokeColor=#2D7600;gradientColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="210.04000000000002" as="sourcePoint" />
+            <mxPoint x="395" y="210.04000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.805;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="252" as="sourcePoint" />
+            <mxPoint x="277" y="251.04999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-21" value="Vnet Link" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="228" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-24" value="DNS Private Resolver" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Private_Resolver.svg;" parent="1" vertex="1">
+          <mxGeometry x="370" y="301" width="45.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-27" value="Conditional&amp;nbsp;&lt;div&gt;Forward&lt;div&gt;for sub.contoso.com&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="440" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.062;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.95;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rAPmGu2H4yRlAbI1YFUs-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="202" y="346.5" as="sourcePoint" />
+            <mxPoint x="279.99999999999994" y="346.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-29" value="Vnet Link" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="323" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-30" value="Contoso.com&lt;div&gt;(corporate DNS)&lt;/div&gt;" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.secure_dns;" parent="1" vertex="1">
+          <mxGeometry x="441.88" y="560" width="38.12" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-31" value="&lt;font style=&quot;background-color: rgb(0, 0, 0);&quot; color=&quot;#ffff00&quot;&gt;10.2.1.10&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="443.72" y="262" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-32" value="&lt;font color=&quot;#00ff00&quot;&gt;10.2.2.4&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="237" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-33" value="&lt;font color=&quot;#ffff00&quot;&gt;10.2.1.10&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="332" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-34" value="&lt;font style=&quot;background-color: rgb(46, 46, 46);&quot; color=&quot;#00ff00&quot;&gt;10.2.2.4&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="339.72" y="218" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-35" value="192.168.1.10" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="304.13" y="629" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-39" value="peproxy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-40" value="peproxy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-43" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="388" as="sourcePoint" />
+            <mxPoint x="420" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="338" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.724;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.728;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=4;sketch=1;curveFitting=1;jiggle=2;strokeColor=#999494;" parent="1" source="rAPmGu2H4yRlAbI1YFUs-12" target="rAPmGu2H4yRlAbI1YFUs-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="530" as="sourcePoint" />
+            <mxPoint x="460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.004;entryY=0.89;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="rAPmGu2H4yRlAbI1YFUs-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364.13" y="325" as="sourcePoint" />
+            <mxPoint x="294.40999999999997" y="325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="rAPmGu2H4yRlAbI1YFUs-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364.13" y="580" as="sourcePoint" />
+            <mxPoint x="414.13" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.676;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rAPmGu2H4yRlAbI1YFUs-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="462" y="535.06" as="sourcePoint" />
+            <mxPoint x="461" y="375.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1" target="rAPmGu2H4yRlAbI1YFUs-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="370" as="sourcePoint" />
+            <mxPoint x="470" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDJkZfxOKEVpjK19Z1x9-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Azure PaaS Services support multiple protocols&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="100" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rDJkZfxOKEVpjK19Z1x9-2" value="For example Storage supports &lt;b&gt;HTTPS&lt;/b&gt;,&amp;nbsp;&lt;b&gt;SMB, &lt;/b&gt;and&lt;b&gt; NFS&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="590" y="156.54" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDJkZfxOKEVpjK19Z1x9-3" value="For HTTPS, Storage uses TLS with SNI to verify the certificate matches privatelink.blob.core.windows.net" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="207" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDJkZfxOKEVpjK19Z1x9-4" value="For SMB and NFS, Storage does not use name matching so a custom domain is supported directly against the service" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="265" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAPmGu2H4yRlAbI1YFUs-22" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/ExpressRoute_Circuits.svg;" parent="1" vertex="1">
+          <mxGeometry x="440" y="440" width="43.75" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
