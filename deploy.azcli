@@ -1,0 +1,47 @@
+
+rg="pe-proxy"
+loc="eastus"
+vnet="pe-proxy-vnet"
+vnet_prefix="10.2.0.0/16"
+subnet1="pe-subnet"
+subnet2="vm-subnet"
+subnet3="proxy-subnet"
+subnet1_prefix="10.2.1.0/24"
+subnet2_prefix="10.2.2.0/24"
+subnet3_prefix="10.2.3.0/24"
+storage="peproxy"$RANDOM
+
+BLACK="\033[30m"
+RED="\033[31m"
+GREEN="\033[32m"
+YELLOW="\033[33m"
+BLUE="\033[34m"
+PINK="\033[35m"
+CYAN="\033[36m"
+WHITE="\033[37m"
+NORMAL="\033[0;39m"
+
+# Allow RG to be set via shell var
+if [[ $1 ]]; then
+    rg=$1
+fi
+
+echo -e "$WHITE$(date +"%T")$GREEN Creating Resource Group$CYAN" $rg "$GREEN in $CYAN" $loc
+az group create --name $rg --location $loc --output none
+
+echo -e "$WHITE$(date +"%T")$GREEN Creating$CYAN Vnet" $vnet $WHITE
+echo -e "$WHITE$(date +"%T")$GREEN Creating$CYAN subnet1" $subnet1 $WHITE
+az network vnet create --resource-group $rg --name $vnet --address-prefixes $vnet_prefix --subnet-name $subnet1 --subnet-prefix $subnet1_prefix --output none
+echo -e "$WHITE$(date +"%T")$GREEN Creating$CYAN subnet2" $subnet2 $WHITE
+az network vnet subnet create --resource-group $rg --vnet-name $vnet --name $subnet2 --address-prefixes $subnet2_prefix --output none
+echo -e "$WHITE$(date +"%T")$GREEN Creating$CYAN subnet3" $subnet3 $WHITE
+az network vnet subnet create --resource-group $rg --vnet-name $vnet --name $subnet3 --address-prefixes $subnet3_prefix --output none
+
+echo -e "$WHITE$(date +"%T")$GREEN Creating$CYAN storage" $storage $WHITE
+az storage account create --name $storage --resource-group $rg --location $loc --sku Standard_LRS --output none
+echo -e "$WHITE$(date +"%T")$GREEN Creating$CYAN container images" $WHITE
+acctkey=$(az storage account keys list --account-name $storage --resource-group $rg --query '[0].value' --output tsv)
+az storage container create --name "images" --account-name $storage --account-key $acctkey --output none
+
+# todo upload image
+
